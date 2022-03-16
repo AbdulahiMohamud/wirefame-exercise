@@ -1,0 +1,77 @@
+body {
+  align-content:center ;
+}
+header {
+background-color: gray;
+}
+nav {
+  width: max-content;
+  font-size: 16pt;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+
+}
+
+nav p {
+  font-size: 16px;
+  vertical-align: top;
+  text-align: top;
+  margin-top: 50px;
+  margin-left: 69px;
+}
+
+main img {
+  margin-top: 20px;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items:flex-start;
+}
+article{
+  border: 0px;
+  margin-top: 10px;
+
+}
+article  p {
+  /* pulled from stackoverflow */
+  margin-top: 0px;
+  height: 160px;
+  font-size: 20px;
+  font-style: italic;
+  overflow-y: scroll;
+  margin-left:  500px;
+  margin-right:228px ;
+  display: inline-block;
+}
+article h2 {
+  font-size: 16pt;
+  margin-left: 500px;
+  margin-right: 100px;
+}
+button {
+  display: inline-block;
+  margin-left:500px;
+  border-radius: 5px;
+  background-color: white;
+  color: black;
+  font-size: 15px;
+  height: 40px;
+  width: 25%;
+  outline: none;
+  transition: 350ms; 
+ 
+}
+button:hover {
+  background-color: black;
+  color: white;
+}
+
+footer {
+  height: 100px;
+  background-color: gray;
+}
